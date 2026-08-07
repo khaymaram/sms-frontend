@@ -21,7 +21,7 @@ import axios, { type AxiosRequestConfig } from "axios";
 // Base URL comes from the environment so the same build can point at
 // localhost during development or a deployed backend in production.
 // If VITE_API_URL is not set, the app falls back to the local Go server.
-const API_URL = import.meta.env.VITE_API_URL ?? "http://52.221.244.89/api";
+const API_URL = import.meta.env.VITE_API_URL ?? "http://54.254.28.152/api";
 
 // Create one shared Axios instance for all requests so every call uses the
 // same base URL, content type, and request defaults.
